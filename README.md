@@ -1,4 +1,4 @@
-#Middleman Boilerplate
+#RD Boilerplate
 
 This includes:
 
@@ -14,15 +14,15 @@ This includes:
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
 git clone https://github.com/dannyvassallo/middleman-boilerplate.git
-cd middleman-boilerplate
+cd rdboiler
 ```
 
-From the "middleman-boilerplate" directory, install the gems by running the following:
+From the "rdboiler" directory, install the gems by running the following:
 ```shell
 bundle install
 ```
 
-To fire up the server while in the "middleman-boilerplate" directory use this command:
+To fire up the server while in the "rdboiler" directory use this command:
 ```shell
 middleman s
 ```
@@ -38,7 +38,7 @@ If you find yourself curious as to what directory you are in use the following i
 ```shell
 pwd
 ```
-It should turn up "middleman-boilerplate"
+It should turn up "rdboiler"
 
 ### Deploying
 
