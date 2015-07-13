@@ -13,7 +13,7 @@ This includes:
 ------------------------
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
-git clone https://github.com/dannyvassallo/middleman-boilerplate.git
+git clone https://github.com/dannyvassallo/rdboiler.git
 cd rdboiler
 ```
 
