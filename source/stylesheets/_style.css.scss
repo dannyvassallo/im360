@@ -1,7 +1,21 @@
+$rd-backgroundcolor: #d8edf8;
+
 @font-face {
   font-family: 'PlacardMT-BoldCondensed';
   src: url('../fonts/PlacardMT-BoldCondensed.eot?') format('eot'),
        url('../fonts/PlacardMT-BoldCondensed.woff') format('woff'),
        url('../fonts/PlacardMT-BoldCondensed.ttf')  format('truetype'),
        url('../fonts/PlacardMT-BoldCondensed.svg#PlacardMT-BoldCondensed') format('svg');
+}
+
+#background{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -99999;
+  background-color: $rd-backgroundcolor;
 }
