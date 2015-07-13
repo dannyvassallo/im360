@@ -1,4 +1,9 @@
-@charset "utf-8";
-@import "normalize";
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@charset 'utf-8';
+@import 'normalize';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'contest-styles';
+@import 'alertifycustom';
+@import 'alertify.core';
+@import 'alertify.bootstrap';
+@import 'style';
