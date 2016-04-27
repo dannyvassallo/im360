@@ -30,5 +30,17 @@ body{
   height: 100%;
   width: 100%;
   z-index: -99999;
-  background-color: $rd-backgroundcolor;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('https://s3.amazonaws.com/myfangate.com/rdim360/background.jpg');
+  // background-color: $rd-backgroundcolor;
+}
+
+.header{
+  margin-top: 5%;
+}
+
+.placeholder{
+  margin: 5% auto;
 }
