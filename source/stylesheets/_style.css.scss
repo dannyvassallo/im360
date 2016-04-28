@@ -21,6 +21,50 @@ body{
   width: 100%;
 }
 
+.grayscale{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.progressbar{
+  margin-top: -20px;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+
+a{
+  z-index: 9999;
+}
+
+.button-container{
+  position: relative;
+}
+
+.im360-link{
+  display: block;
+  position: relative;
+}
+
+.clickhere{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.dark-overlay{
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
 #background{
   position: absolute;
   top: 0;
