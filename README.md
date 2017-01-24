@@ -1,28 +1,24 @@
-#RD IM360 App
-
+#Video Landing Page
 This includes:
-
 1. jQuery
 2. Bootstrap
 3. Font Awesome
 4. Heroku Deployment Config
 
-
 ### Getting Started
-
 ------------------------
 Clone the repo using the GUI or terminal. To do so in terminal, use the following:
 ```shell
-git clone https://github.com/dannyvassallo/im360.git
-cd im360
+git clone https://github.com/mqschwanda/video-landing-page.git
+cd video-landing-page
 ```
 
-From the "im360" directory, install the gems by running the following:
+From the `video-landing-page` directory, install the gems by running the following:
 ```shell
 bundle install
 ```
 
-To fire up the server while in the "im360" directory use this command:
+To fire up the server while in the `video-landing-page` directory use this command:
 ```shell
 middleman s
 ```
@@ -32,13 +28,7 @@ If you are having issues with livereload not working fire up the server using:
 middleman s --force-polling --verbose
 ```
 
-To kill the server use "ctrl+c"
-
-If you find yourself curious as to what directory you are in use the following in terminal:
-```shell
-pwd
-```
-It should turn up "im360"
+To kill the server use `ctrl+c`
 
 ### Deploying
 
