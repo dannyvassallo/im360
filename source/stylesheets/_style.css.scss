@@ -1,14 +1,6 @@
-$rd-backgroundcolor: #d8edf8;
+$backgroundColor: blue;
 
-html{
-  min-height:100%;/* make sure it is at least as tall as the viewport */
-  position:relative
-}
-
-body{
-  height: 100%;
-}
-
+// typography
 @font-face {
   font-family: 'PlacardMT-BoldCondensed';
   src: url('../fonts/PlacardMT-BoldCondensed.eot?') format('eot'),
@@ -16,53 +8,19 @@ body{
        url('../fonts/PlacardMT-BoldCondensed.ttf')  format('truetype'),
        url('../fonts/PlacardMT-BoldCondensed.svg#PlacardMT-BoldCondensed') format('svg');
 }
+// general
+html{
+  min-height:100%;/* make sure it is at least as tall as the viewport */
+  position:relative
+}
+body{
+  height: 100%;
+}
+
+
 
 .full-w{
   width: 100%;
-}
-
-.grayscale{
-  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-  filter: grayscale(100%);
-}
-
-.progressbar{
-  margin-top: -20px;
-  position: absolute;
-  bottom: 0;
-  z-index: 10;
-}
-
-a{
-  z-index: 9999;
-}
-
-.button-container{
-  position: relative;
-}
-
-.im360-link{
-  display: block;
-  position: relative;
-}
-
-.clickhere{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.dark-overlay{
-  background-color: black;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0.7;
 }
 
 #background{
@@ -77,14 +35,9 @@ a{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url('https://s3.amazonaws.com/myfangate.com/rdim360/background.jpg');
-  // background-color: $rd-backgroundcolor;
+  // background-image: url('http://placehold.it/500x500?text=Replace+with+background');
+  background-color: $backgroundColor;
 }
-
-.header{
-  margin-top: 5%;
-}
-
-.placeholder{
+.header, .footer{
   margin: 5% auto;
 }
